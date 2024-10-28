@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#"
-     xml:base="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl"
+<rdf:RDF xmlns="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#"
+     xml:base="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:pcdo="http://sbmi.uth.edu/ontology/pcdo#"
+     xmlns:pcdkg="http://sbmi.uth.edu/ontology/pcdkg#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:pcdo1="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#"
+     xmlns:pcdkg1="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl"/>
+    <owl:Ontology rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl"/>
     </owl:Ontology>
     
 
@@ -27,9 +27,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#may_result -->
+    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#may_result -->
 
-    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#may_result"/>
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#may_result"/>
     
 
 
@@ -44,45 +44,45 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Cancer_Medication_Combination -->
+    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Cancer_Medication_Combination -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Cancer_Medication_Combination"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Cancer_Medication_Combination"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Cold_Medication_Combination -->
+    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Cold_Medication_Combination -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Cold_Medication_Combination"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Cold_Medication_Combination"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Diabetes_Medication_Combination -->
+    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Diabetes_Medication_Combination -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Diabetes_Medication_Combination"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Diabetes_Medication_Combination"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Hormone_Drug_Combination -->
+    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Hormone_Drug_Combination -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Hormone_Drug_Combination"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Hormone_Drug_Combination"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Once_a_Day_Dosage_Series -->
+    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Once_a_Day_Dosage_Series -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Once_a_Day_Dosage_Series"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Once_a_Day_Dosage_Series"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Sterioid_Medication_Combination -->
+    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Sterioid_Medication_Combination -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Sterioid_Medication_Combination"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Sterioid_Medication_Combination"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Weight_Loss_Drug_Combination -->
+    <!-- https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Weight_Loss_Drug_Combination -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Weight_Loss_Drug_Combination"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Weight_Loss_Drug_Combination"/>
     
 
 
@@ -97,892 +97,892 @@
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levo-T -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levo-T -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levo-T">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Tradename"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levo-T">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Tradename"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levothroid -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levothroid -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levothroid">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Tradename"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levothroid">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Tradename"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levoxyl -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levoxyl -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levoxyl">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Tradename"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levoxyl">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Tradename"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Synthroid -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Synthroid -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Synthroid">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Tradename"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Synthroid">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Tradename"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Tirosint -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Tirosint -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Tirosint">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Tradename"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Tirosint">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Tradename"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Unithroid -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Unithroid -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Unithroid">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Tradename"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Unithroid">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Tradename"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#_Levothyroxine -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#_Levothyroxine -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#_Levothyroxine">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Drug"/>
-        <pcdo:acts_by rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#thyroid_hormone_replacement"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#antidepressant_drug_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#beta_blocker_drug_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#blood_thinner_drug_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cancer_medication_drug_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cold_drug_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#diabetes_drug_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#dietary_fiber_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#grapefruit_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hormone_drug_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#proton_pump_inhibitor_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#soybean_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#steriod_medication_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#walnut_combination"/>
-        <pcdo:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_loss_drug_combination"/>
-        <pcdo:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_are_pregnant"/>
-        <pcdo:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_had_radiation_therapy"/>
-        <pcdo:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_had_surgery"/>
-        <pcdo:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_with_adrenal_insufficiency"/>
-        <pcdo:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_with_diabetes"/>
-        <pcdo:comes_in rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#tablet"/>
-        <pcdo:has_dosage_series rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#single_dose"/>
-        <pcdo:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#do_not_chew"/>
-        <pcdo:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#do_not_crush"/>
-        <pcdo:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_full_glass_of_water_after"/>
-        <pcdo:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_if_you_forget_it"/>
-        <pcdo:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_on_empty_stomach"/>
-        <pcdo:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_with_water"/>
-        <pcdo:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levo-T"/>
-        <pcdo:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levothroid"/>
-        <pcdo:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Levoxyl"/>
-        <pcdo:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Synthroid"/>
-        <pcdo:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Tirosint"/>
-        <pcdo:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#Unithroid"/>
-        <pcdo:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_levothyroxine"/>
-        <pcdo:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_levothyroxine_ingredients"/>
-        <pcdo:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_thyroid_hormone"/>
-        <pcdo:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cautionary_reaction_levo"/>
-        <pcdo:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#overdose_reaction_levo"/>
-        <pcdo:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#serious_reaction_levo"/>
-        <pcdo:treats rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hypothyrodisim"/>
-        <pcdo:treats rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#thyroid_cancer"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#_Levothyroxine">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Drug"/>
+        <pcdkg:acts_by rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#thyroid_hormone_replacement"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#antidepressant_drug_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#beta_blocker_drug_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#blood_thinner_drug_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cancer_medication_drug_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cold_drug_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#diabetes_drug_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#dietary_fiber_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#grapefruit_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hormone_drug_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#proton_pump_inhibitor_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#soybean_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#steriod_medication_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#walnut_combination"/>
+        <pcdkg:avoid_taking_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_loss_drug_combination"/>
+        <pcdkg:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_are_pregnant"/>
+        <pcdkg:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_had_radiation_therapy"/>
+        <pcdkg:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_had_surgery"/>
+        <pcdkg:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_with_adrenal_insufficiency"/>
+        <pcdkg:caution_for rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_with_diabetes"/>
+        <pcdkg:comes_in rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#tablet"/>
+        <pcdkg:has_dosage_series rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#single_dose"/>
+        <pcdkg:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#do_not_chew"/>
+        <pcdkg:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#do_not_crush"/>
+        <pcdkg:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_full_glass_of_water_after"/>
+        <pcdkg:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_if_you_forget_it"/>
+        <pcdkg:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_on_empty_stomach"/>
+        <pcdkg:has_special_instructions rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_with_water"/>
+        <pcdkg:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levo-T"/>
+        <pcdkg:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levothroid"/>
+        <pcdkg:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Levoxyl"/>
+        <pcdkg:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Synthroid"/>
+        <pcdkg:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Tirosint"/>
+        <pcdkg:is_also_known_as rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#Unithroid"/>
+        <pcdkg:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_levothyroxine"/>
+        <pcdkg:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_levothyroxine_ingredients"/>
+        <pcdkg:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_thyroid_hormone"/>
+        <pcdkg:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cautionary_reaction_levo"/>
+        <pcdkg:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#overdose_reaction_levo"/>
+        <pcdkg:may_cause rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#serious_reaction_levo"/>
+        <pcdkg:treats rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hypothyrodisim"/>
+        <pcdkg:treats rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#thyroid_cancer"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_levothyroxine -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_levothyroxine -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_levothyroxine">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Allergic_Reaction"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_levothyroxine">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Allergic_Reaction"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_levothyroxine_ingredients -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_levothyroxine_ingredients -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_levothyroxine_ingredients">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Allergic_Reaction"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_levothyroxine_ingredients">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Allergic_Reaction"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_thyroid_hormone -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_thyroid_hormone -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#allergic_reaction_to_thyroid_hormone">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Allergic_Reaction"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#allergic_reaction_to_thyroid_hormone">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Allergic_Reaction"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#ankle_swelling -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#ankle_swelling -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#ankle_swelling">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Swelling_of_the_Ankles"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#ankle_swelling">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Swelling_of_the_Ankles"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#antidepressant_drug_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#antidepressant_drug_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#antidepressant_drug_combination">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Antipsychotic_Drug_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#antidepressant_drug_combination">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Antipsychotic_Drug_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#anxiety -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#anxiety -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#anxiety">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#General_Feeling_of_Discomfort_or_Illness"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#anxiety">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#General_Feeling_of_Discomfort_or_Illness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#appetite_change -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#appetite_change -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#appetite_change">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Change_in_Appetite"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#appetite_change">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Change_in_Appetite"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#beta_blocker_drug_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#beta_blocker_drug_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#beta_blocker_drug_combination">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Beta-Blockers_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#beta_blocker_drug_combination">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Beta-Blockers_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#blood_thinner_drug_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#blood_thinner_drug_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#blood_thinner_drug_combination">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Blood_Pressure_Medications_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#blood_thinner_drug_combination">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Blood_Pressure_Medications_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#body_shaking -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#body_shaking -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#body_shaking">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Restlessness"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#body_shaking">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Restlessness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cancer_medication_drug_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cancer_medication_drug_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cancer_medication_drug_combination">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Cancer_Medication_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cancer_medication_drug_combination">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Cancer_Medication_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cautionary_reaction_levo -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cautionary_reaction_levo -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cautionary_reaction_levo">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Cautionary_Reaction"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#appetite_change"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#changes_in_menstural_cycle"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#diarrhea"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#fever"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hair_loss_reaction"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#headache"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#heat_sensitivity"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#joint_pain_reaction"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#leg_cramp"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#vomitting"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_gain_reaction"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_loss_reaction"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cautionary_reaction_levo">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Cautionary_Reaction"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#appetite_change"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#changes_in_menstural_cycle"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#diarrhea"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#fever"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hair_loss_reaction"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#headache"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#heat_sensitivity"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#joint_pain_reaction"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#leg_cramp"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#vomitting"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_gain_reaction"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_loss_reaction"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#changes_in_menstural_cycle -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#changes_in_menstural_cycle -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#changes_in_menstural_cycle">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Menstrual_Changes"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#changes_in_menstural_cycle">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Menstrual_Changes"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#chest_pain -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#chest_pain -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#chest_pain">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Chest_Pain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#chest_pain">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Chest_Pain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#child -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#child -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#child">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Children"/>
-        <pcdo:personally_take rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#crush_and_mix_2_teaspoon_of_water"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#child">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Children"/>
+        <pcdkg:personally_take rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#crush_and_mix_2_teaspoon_of_water"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cold_drug_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cold_drug_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#cold_drug_combination">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Cold_Medication_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#cold_drug_combination">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Cold_Medication_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#confusion -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#confusion -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#confusion">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Confusion"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#confusion">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Confusion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#constipatation -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#constipatation -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#constipatation">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Constipation"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#constipatation">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Constipation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#crush_and_mix_2_teaspoon_of_water -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#crush_and_mix_2_teaspoon_of_water -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#crush_and_mix_2_teaspoon_of_water">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Handling_Instruction"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#crush_and_mix_2_teaspoon_of_water">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Handling_Instruction"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#depression -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#depression -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#depression">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Mental_Depression"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#depression">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Mental_Depression"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#diabetes_drug_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#diabetes_drug_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#diabetes_drug_combination">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Diabetes_Medication_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#diabetes_drug_combination">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Diabetes_Medication_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#diarrhea -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#diarrhea -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#diarrhea">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Diarrhea"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#diarrhea">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Diarrhea"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#dietary_fiber_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#dietary_fiber_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#dietary_fiber_combination">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Dietary_Fiber_Rich_Food_Combination"/>
-        <pcdo:has_drug_interactions_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#dietary_fiber_food"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#dietary_fiber_combination">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Dietary_Fiber_Rich_Food_Combination"/>
+        <pcdkg:has_drug_interactions_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#dietary_fiber_food"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#dietary_fiber_food -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#dietary_fiber_food -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#dietary_fiber_food">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Food"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#dietary_fiber_food">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Food"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#difficulty_sleeping -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#difficulty_sleeping -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#difficulty_sleeping">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Trouble_Sleeping"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#difficulty_sleeping">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Trouble_Sleeping"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#do_not_chew -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#do_not_chew -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#do_not_chew">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Do_Not_Chew"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#do_not_chew">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Do_Not_Chew"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#do_not_crush -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#do_not_crush -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#do_not_crush">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Do_Not_Crush"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#do_not_crush">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Do_Not_Crush"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#excessive_sweating -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#excessive_sweating -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#excessive_sweating">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Sweating"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#excessive_sweating">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Sweating"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#excessive_tiredness -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#excessive_tiredness -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#excessive_tiredness">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Extreme_Tiredness"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#excessive_tiredness">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Extreme_Tiredness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#feet_swelling -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#feet_swelling -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#feet_swelling">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Swelling_of_the_Feet"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#feet_swelling">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Swelling_of_the_Feet"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#fever -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#fever -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#fever">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Fever"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#fever">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Fever"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#flushing -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#flushing -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#flushing">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Flushing"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#flushing">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Flushing"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#grapefruit -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#grapefruit -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#grapefruit">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Food"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#grapefruit">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Food"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#grapefruit_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#grapefruit_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#grapefruit_combination">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Grapefruit_Combination"/>
-        <pcdo:has_drug_interactions_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#grapefruit"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#grapefruit_combination">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Grapefruit_Combination"/>
+        <pcdkg:has_drug_interactions_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#grapefruit"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hair_loss -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hair_loss -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hair_loss">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Hair_Loss"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hair_loss">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Hair_Loss"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hair_loss_reaction -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hair_loss_reaction -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hair_loss_reaction">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Hair_Loss"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hair_loss_reaction">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Hair_Loss"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hand_swelling -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hand_swelling -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hand_swelling">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Swelling_of_the_Hands"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hand_swelling">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Swelling_of_the_Hands"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#headache -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#headache -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#headache">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Headache"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#headache">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Headache"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#heat_sensitivity -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#heat_sensitivity -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#heat_sensitivity">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Heat_Intolerance"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#heat_sensitivity">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Heat_Intolerance"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hives -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hives -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hives">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Hives"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hives">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Hives"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hormone_drug_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hormone_drug_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hormone_drug_combination">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Hormone_Drug_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hormone_drug_combination">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Hormone_Drug_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hypothyrodisim -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hypothyrodisim -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hypothyrodisim">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Hypothyroidism"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#constipatation"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#depression"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#excessive_tiredness"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hair_loss"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#increased_sensitivity_to_cold"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irregular_menstural_periods"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#joint_pain"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#lack_of_energy"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#muscle_pain"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#poor_growth"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#slow_speech"/>
-        <pcdo1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_gain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hypothyrodisim">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Hypothyroidism"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#constipatation"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#depression"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#excessive_tiredness"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hair_loss"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#increased_sensitivity_to_cold"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irregular_menstural_periods"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#joint_pain"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#lack_of_energy"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#muscle_pain"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#poor_growth"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#slow_speech"/>
+        <pcdkg1:may_result rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_gain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#increased_sensitivity_to_cold -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#increased_sensitivity_to_cold -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#increased_sensitivity_to_cold">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Cold_Feeling"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#increased_sensitivity_to_cold">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Cold_Feeling"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#infant -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#infant -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#infant">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Infants"/>
-        <pcdo:personally_take rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#crush_and_mix_2_teaspoon_of_water"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#infant">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Infants"/>
+        <pcdkg:personally_take rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#crush_and_mix_2_teaspoon_of_water"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irregular_heartbeat -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irregular_heartbeat -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irregular_heartbeat">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Irregular_Heartbeat"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irregular_heartbeat">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Irregular_Heartbeat"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irregular_menstural_periods -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irregular_menstural_periods -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irregular_menstural_periods">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Menstrual_Changes"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irregular_menstural_periods">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Menstrual_Changes"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irritability -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irritability -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irritability">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Irritability"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irritability">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Irritability"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#itching -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#itching -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#itching">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Itchiness"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#itching">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Itchiness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#joint_pain -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#joint_pain -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#joint_pain">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Joint_Pain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#joint_pain">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Joint_Pain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#joint_pain_reaction -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#joint_pain_reaction -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#joint_pain_reaction">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Joint_Pain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#joint_pain_reaction">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Joint_Pain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#lack_of_energy -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#lack_of_energy -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#lack_of_energy">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Fatigue"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#lack_of_energy">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Fatigue"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#leg_cramp -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#leg_cramp -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#leg_cramp">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Leg_Pain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#leg_cramp">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Leg_Pain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#loss_of_consciousness -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#loss_of_consciousness -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#loss_of_consciousness">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Disoriented_Reality"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#loss_of_consciousness">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Disoriented_Reality"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#lower_leg_swelling -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#lower_leg_swelling -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#lower_leg_swelling">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Swelling_of_the_Lower_Legs"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#lower_leg_swelling">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Swelling_of_the_Lower_Legs"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#muscle_pain -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#muscle_pain -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#muscle_pain">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Muscle_Pain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#muscle_pain">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Muscle_Pain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#nausea -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#nausea -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#nausea">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Nausea"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#nausea">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Nausea"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#nervousness -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#nervousness -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#nervousness">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Nervousness"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#nervousness">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Nervousness"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#overdose_reaction_levo -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#overdose_reaction_levo -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#overdose_reaction_levo">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Drug_Overdose_Reaction"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#anxiety"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#body_shaking"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#chest_pain"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#confusion"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#difficulty_sleeping"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#excessive_sweating"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irregular_heartbeat"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#irritability"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#loss_of_consciousness"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#nervousness"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#seizure"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#shortness_of_breath_(overdose_reaction)"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#overdose_reaction_levo">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Drug_Overdose_Reaction"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#anxiety"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#body_shaking"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#chest_pain"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#confusion"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#difficulty_sleeping"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#excessive_sweating"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irregular_heartbeat"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#irritability"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#loss_of_consciousness"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#nervousness"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#seizure"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#shortness_of_breath_(overdose_reaction)"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_are_pregnant -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_are_pregnant -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_are_pregnant">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#People_with_Condition"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_are_pregnant">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#People_with_Condition"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_had_radiation_therapy -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_had_radiation_therapy -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_had_radiation_therapy">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Patients_on_Medication"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_had_radiation_therapy">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Patients_on_Medication"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_had_surgery -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_had_surgery -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_who_had_surgery">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#People_with_Surgical_Condition"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_who_had_surgery">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#People_with_Surgical_Condition"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_with_adrenal_insufficiency -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_with_adrenal_insufficiency -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_with_adrenal_insufficiency">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#People_with_Disease_Condition"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_with_adrenal_insufficiency">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#People_with_Disease_Condition"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_with_diabetes -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_with_diabetes -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#people_with_diabetes">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Patients_with_Diabetes_Mellitus"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#people_with_diabetes">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Patients_with_Diabetes_Mellitus"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#poor_growth -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#poor_growth -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#poor_growth">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Stunted_Growth"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#poor_growth">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Stunted_Growth"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#proton_pump_inhibitor_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#proton_pump_inhibitor_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#proton_pump_inhibitor_combination">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Proton_Pump_Inhibitors_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#proton_pump_inhibitor_combination">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Proton_Pump_Inhibitors_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#rash -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#rash -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#rash">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Skin_Rash"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#rash">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Skin_Rash"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#seizure -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#seizure -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#seizure">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Seizures"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#seizure">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Seizures"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#serious_reaction_levo -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#serious_reaction_levo -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#serious_reaction_levo">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Adverse_Drug_Reactions"/>
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Serious_Reaction"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#ankle_swelling"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#feet_swelling"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#flushing"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hand_swelling"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#hives"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#itching"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#lower_leg_swelling"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#nausea"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#rash"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#shortness_of_breath"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#stomach_pain"/>
-        <pcdo:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#wheezing"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#serious_reaction_levo">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Adverse_Drug_Reactions"/>
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Serious_Reaction"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#ankle_swelling"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#feet_swelling"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#flushing"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hand_swelling"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#hives"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#itching"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#lower_leg_swelling"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#nausea"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#rash"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#shortness_of_breath"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#stomach_pain"/>
+        <pcdkg:has_signs rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#wheezing"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#shortness_of_breath -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#shortness_of_breath -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#shortness_of_breath">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Shortness_of_Breath"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#shortness_of_breath">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Shortness_of_Breath"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#single_dose -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#single_dose -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#single_dose">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Once_a_Day_Dosage_Series"/>
-        <pcdo:before rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#30_to_60_minutes_before_breakfast"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#single_dose">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Once_a_Day_Dosage_Series"/>
+        <pcdkg:before rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#30_to_60_minutes_before_breakfast"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#slow_speech -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#slow_speech -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#slow_speech">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Sensory-based_Symptom"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#slow_speech">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Sensory-based_Symptom"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#soybean -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#soybean -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#soybean">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Food"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#soybean">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Food"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#soybean_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#soybean_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#soybean_combination">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Soybean_Flour_Food_Combination"/>
-        <pcdo:has_drug_interactions_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#soybean"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#soybean_combination">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Soybean_Flour_Food_Combination"/>
+        <pcdkg:has_drug_interactions_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#soybean"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#steriod_medication_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#steriod_medication_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#steriod_medication_combination">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Sterioid_Medication_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#steriod_medication_combination">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Sterioid_Medication_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#stomach_pain -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#stomach_pain -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#stomach_pain">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Stomach_Pain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#stomach_pain">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Stomach_Pain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#tablet -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#tablet -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#tablet">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Tablet"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#tablet">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Tablet"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_full_glass_of_water_after -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_full_glass_of_water_after -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_full_glass_of_water_after">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Drink_Plenty_of_Water"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_full_glass_of_water_after">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Drink_Plenty_of_Water"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_if_you_forget_it -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_if_you_forget_it -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_if_you_forget_it">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Make-up_Dosage"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_if_you_forget_it">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Make-up_Dosage"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_on_empty_stomach -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_on_empty_stomach -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_on_empty_stomach">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Take_on_Empty_Stomach"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_on_empty_stomach">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Take_on_Empty_Stomach"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_with_water -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_with_water -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#take_with_water">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Special_Instructions_Involving_Food"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#take_with_water">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Special_Instructions_Involving_Food"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#thyroid_cancer -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#thyroid_cancer -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#thyroid_cancer">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Disease"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#thyroid_cancer">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Disease"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#thyroid_hormone_replacement -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#thyroid_hormone_replacement -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#thyroid_hormone_replacement">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Thyroid_Horomone_Replacement"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#thyroid_hormone_replacement">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Thyroid_Horomone_Replacement"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#vomitting -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#vomitting -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#vomitting">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Vomitting"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#vomitting">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Vomitting"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#walnut -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#walnut -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#walnut">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Food"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#walnut">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Food"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#walnut_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#walnut_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#walnut_combination">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Walnut_Combination"/>
-        <pcdo:has_drug_interactions_with rdf:resource="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#walnut"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#walnut_combination">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Walnut_Combination"/>
+        <pcdkg:has_drug_interactions_with rdf:resource="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#walnut"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_gain -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_gain -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_gain">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Weight_Gain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_gain">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Weight_Gain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_gain_reaction -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_gain_reaction -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_gain_reaction">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Weight_Gain"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_gain_reaction">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Weight_Gain"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_loss_drug_combination -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_loss_drug_combination -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_loss_drug_combination">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDO/main/pcdo.owl#Weight_Loss_Drug_Combination"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_loss_drug_combination">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/UTHealth-Ontology/PcDKG/main/pcdkg.owl#Weight_Loss_Drug_Combination"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_loss_reaction -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_loss_reaction -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#weight_loss_reaction">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Weight_Loss"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#weight_loss_reaction">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Weight_Loss"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#wheezing -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#wheezing -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#wheezing">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Labored_Breathing"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#wheezing">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Labored_Breathing"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#30_to_60_minutes_before_breakfast -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#30_to_60_minutes_before_breakfast -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#30_to_60_minutes_before_breakfast">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Occurrence"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#30_to_60_minutes_before_breakfast">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Occurrence"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#shortness_of_breath_(overdose_reaction) -->
+    <!-- http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#shortness_of_breath_(overdose_reaction) -->
 
-    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdo/levothyroxine.owl#shortness_of_breath_(overdose_reaction)">
-        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdo#Shortness_of_Breath"/>
+    <owl:NamedIndividual rdf:about="http://sbmi.uth.edu/ontology/pcdkg/levothyroxine.owl#shortness_of_breath_(overdose_reaction)">
+        <rdf:type rdf:resource="http://sbmi.uth.edu/ontology/pcdkg#Shortness_of_Breath"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
